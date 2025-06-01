@@ -1,6 +1,3 @@
 #!/bin/bash
-
-echo "🔧 Installing dependencies..."
 pip install -r requirements.txt
-
-echo "✅ Build complete. Static files are ready."
+python manage.py collectstatic --noinput
