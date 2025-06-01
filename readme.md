@@ -29,9 +29,7 @@ User Voice Input → STT API → LLM Processing → TTS API → Audio Response
 
 ```
 voice_agent/
-├── base/
-│   ├── static/js/
-│   │   └── recorder.js              # Audio recording and playback logic
+├── base/             
 │   ├── templates/base/
 │   │   └── index.html               # Main UI template
 │   ├── views.py                     # Django views handling requests
@@ -48,7 +46,7 @@ voice_agent/
 ## 🛠️ Technologies Used
 
 ### Backend
-- **Django 4.x**: Web framework
+- **Django 4.2.7**: Web framework
 - **Google Cloud Speech-to-Text API**: Voice recognition
 - **Google Cloud Text-to-Speech API**: Speech synthesis
 - **OpenAI GPT API**: Natural language processing
@@ -72,7 +70,7 @@ voice_agent/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/shauryasawai/voice_agent/
 cd voice_agent
 ```
 
