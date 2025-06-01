@@ -121,15 +121,4 @@ USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.2/howto/static-files/
-# For development
-# Static files
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-# For production or collectstatic
-STATIC_ROOT = BASE_DIR / 'staticfiles'
-
 CORS_ALLOW_ALL_ORIGINS = True
